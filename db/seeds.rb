@@ -104,4 +104,3 @@ activities_length = activities_english.length - 25
 for i in 0..activities_length
   Word.create(category_id: activities.id, english: activities_english[i], spanish: activities_spanish[i], french: activities_french[i])
 end
-
