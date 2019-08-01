@@ -1,8 +1,8 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-
+#
 # Examples:
-
+#
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
@@ -26,7 +26,9 @@ directions = Category.create(title: "directions")
 
 
 directions_english = ["left","right","forward","back","reverse","up","down","east","west","north","south","compass","gps","navigator","landmark","mile","foot","feet","inches","kilometer","meter","boat","car","train","plane","taxi","bus","ferry","river","stream","ocean","lake","pond","beach","waterfront","mountain","hill","bridge","path","road","street","avenue","lane","house","hotel","bar","movie theater","theater","venue","club","show","concert","destination","airport","bus stop"]
+
 directions_spanish = ["izquierda", "derecha", "adelante", "atrás", "atrás", "arriba", "abajo", "este", "oeste", "norte", "sur", "compás", "gps","navegador","señal","milla","pie","pies","pulgadas","kilómetro","metro","bote","automóvil","tren","avión","taxi","autobús","ferry","río","arroyo","océano","lago","estanque","playa","línea de costa","montaña","colina","puente","camino","camino","calle","avenida","carril","casa","hotel","bar","cine","teatro","lugar","club","programa de comedia","concierto","destino","aeropuerto","parada de autobús"]
+
 directions_french = ["la gauche","droite","vers l'avant","retour","sens inverse","en haut","vers le bas","est","ouest","nord","sud","boussole","gps","navigatrice","repère","mile","pied","pieds","pouces","kilomètre","mètre","bateau","voiture","métro","avion","taxi","autobus","traversier","rivière","ruisseau","océan","lac","étang","plage","front de mer","montagne","colline","pont","chemin","route","rue","avenue","ruelle","maison","hôtel","bar","cinéma","théâtre","salle","club","spectacle","concert","destination","aéroport","arrêt de bus"]
 directions_length = directions_english.length - 1
 for i in 0..directions_length
