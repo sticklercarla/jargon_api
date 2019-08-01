@@ -6,7 +6,13 @@ class GamesController < ApplicationController
     end
 
     def create 
-        Game.create(user_id: params["user_id"], score: params["score"], duration: params["duration"], correct_word_count: params["correct_word_count"])
+        game = Game.create(game_params)
+        render json: game
     end
 
+    private
+    
+    def game_params
+      params.permit(:user_id, :score, :duration, :correct_word_count)
+    end
 end

@@ -41,7 +41,7 @@ animals_spanish = ["albatros","cocodrilo","alpaca","antílope","tejón","murcié
 
 animals_french = ["albatros","alligator","alpaga","antilope","blaireau","chauve-souris","babouin","blaireau","aigle chauve","baleine","bandicoot","ours","castor","bison","boa","sanglier","buffle","caïman","chameau","capybara","caribou","chat","guépard","chimpanzé","cobra","cacatoès","corneille","coyote","grue","cerf","chien","âne","dauphin","colombe","dragon","aigle","éléphant","wapiti","faucon","furet","pinson","poisson","renard","gazelle","gecko","gerbille","girafe","oie","lièvre","faucon","hippopotame","miel de blaireau","cheval","hyène","bouquetin","ibis","iguane","impala","chacal","jackrabbit","jaguar", "kangourou","épaulard","martin-pêcheur","koala","dragon de komodo","lemming","lémurien","léopard","lion","lézard","lynx","macaque","macaw","pie","lamantin","oiseau moqueur","mangouste","singe","orignal","chèvre de montagne","lion de montagne","mule","boeuf musqué","nighthawk","ocelot","orca","loutre","chouette","boeuf","perruche","perroquet","perdrix","paon","pélican","pingouin","faisan","pigeon","ours polaire","porc-épic","possum","puma","python","caille","lapin","raton laveur","rat","crotale","corbeau","rhinocéros","roadrunner","robin","saumon","sea lion","phoque","requin","mouton","paresseux","serpent","moineau","écureuil","tigre","tortue","dinde","vipère","vautour","wallaby","phacochère","baleine","chien sauvage","loup","marmotte","yak","zèbre"]
 
-animals_length = animals_english.length - 75
+animals_length = animals_english.length - 100
 
 for i in 0..animals_length
   Word.create(category_id: animals.id, english: animals_english[i], spanish: animals_spanish[i], french: animals_french[i])
